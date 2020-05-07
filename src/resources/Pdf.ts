@@ -4,7 +4,7 @@ import MailTemplate from "../templates/MailTemplate";
 import cron from "node-cron";
 import CronJob from "../services/CronJob";
 
-declare var config: any, services: any, document: any;
+declare var config: any, services: any;
 export default class Pdf {
 	private static task: any;
 	static async post(request, response) {
@@ -12,7 +12,7 @@ export default class Pdf {
 		const _self = this;
 		this.task = cron.schedule('*/5 * * * *', () => _self.postUtil(request, response));
 		return {
-			message: "Task has been scheduled. Please check your email after 5 minute for more related questions."
+			message: "Task has been scheduled. Please check your email after 5 minute for more related questions PDF."
 		};
 	}
 
