@@ -24,7 +24,7 @@
     "code": 200,
     "status": "SUCCESS",
     "data": {
-        "message": "Task has been scheduled. Please check your email after 5 minute for more related questions."
+        "message": "Task has been scheduled. Please check your email after 5 minute for more related questions PDF."
     },
     "resource": "pdf",
     "resource_url": "localhost:8083/api/v1/download/pdf",
