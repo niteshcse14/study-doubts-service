@@ -1,0 +1,11 @@
+{
+    "name": "MongoDBManager",
+    "version": "1.0.0",
+    "description": "Manages the mongo db connection",
+    "main": "lib/MongoDBModel.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Nitesh Meena<nitesh.nituk14@gmail.com>",
+    "license": "LMS"
+}

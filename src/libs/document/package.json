@@ -1,0 +1,16 @@
+{
+  "name": "service-document",
+  "version": "1.0.0",
+  "description": "Related to Document",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nitesh <nitesh.nituk14@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "jsdom": "^16.2.2",
+    "puppeteer": "^3.0.2"
+  }
+}

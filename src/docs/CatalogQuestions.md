@@ -1,0 +1,63 @@
+## Get Catalog Questions
+
+**URL** : `api/v1/catalog-questions`
+
+**Method** : `GET`
+
+**Auth required** : None
+
+**Permissions required** : None
+
+## Response
+```json
+{
+    "code": 200,
+    "status": "SUCCESS",
+    "message": "Successfully.",
+    "data": [
+        {
+            "_id": "5eb1aac3cebd9e3380713686",
+            "created_at": "2020-05-05T18:09:43.000Z",
+            "question": "What is a regular polygon? State the name of a regular polygon of (i) 3 sides             (ii)  4 sides             (iii)  6 sides",
+            "subject": "math",
+            "updated_at": "2020-05-06T17:06:48.000Z",
+            "chapter": "Understanding Shapes-In (Polygons)"
+        },
+        {
+            "_id": "5eb1aac3cebd9e3380713687",
+            "created_at": "2020-05-05T18:09:43.000Z",
+            "question": "किसी बहुभुज का अन्तः कोण उसके बाहय कोण का 5 गुना है। बहुभुज की भुजाये ज्ञात करे?",
+            "subject": "english",
+            "updated_at": "2020-05-06T17:06:48.000Z",
+            "chapter": "Geometry And Co-Ordinate"
+        },
+        {
+            "_id": "5eb1aac3cebd9e3380713688",
+            "created_at": "2020-05-05T18:09:43.000Z",
+            "question": "Find the number of sides of a regular polygon, if the measure of each of its interior angles is 150∘.",
+            "subject": "math",
+            "updated_at": "2020-05-06T17:06:48.000Z",
+            "chapter": "Geometry"
+        },
+        {
+            "_id": "5eb1aac3cebd9e3380713689",
+            "created_at": "2020-05-05T18:09:43.000Z",
+            "question": "How many sides has a regular polygon,each angle of which is of measure- 156∘ and 108∘",
+            "subject": "physics",
+            "updated_at": "2020-05-06T17:06:48.000Z",
+            "chapter": "Quadrilaterals"
+        },
+        {
+            "_id": "5eb1aac3cebd9e338071368a",
+            "created_at": "2020-05-05T18:09:43.000Z",
+            "question": "एक सम बहुभुज की भुजाओं की संख्या ज्ञात कीजिए यदि एक बाह्य कोण की माप 24∘ हो ?",
+            "subject": "physics",
+            "updated_at": "2020-05-06T17:06:48.000Z",
+            "chapter": "चतुर्भुजों को समझना"
+        }
+    ],
+    "resource": "catalog_questions",
+    "resource_url": "localhost:8083/api/v1/catalog-questions",
+    "total": 5
+}
+````

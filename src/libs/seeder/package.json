@@ -1,0 +1,15 @@
+{
+  "name": "seeder",
+  "version": "1.0.0",
+  "description": "Saving JSON in DB",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nitesh <nitesh.nituk14@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "xlsx": "^0.16.0",
+    "xml-js": "^1.6.11"
+  }
+}
